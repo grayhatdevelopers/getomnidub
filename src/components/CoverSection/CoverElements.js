@@ -37,7 +37,7 @@ export const CoverBg = styled.div`
 
 export const VideoBg = styled.video`
   width: 100%;
-  height: 110%;
+  height: 100%;
   -o-object-fit: cover;
   object-fit: cover;
   background: #232a34;
@@ -46,19 +46,21 @@ export const VideoBg = styled.video`
 export const CoverContent = styled.div`
   z-index: 3;
   max-width: 1200px;
-  position: absolute;
+  position: relative;
+  left: -25vw;
   padding: 8px 24px;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
 `;
 
+// background-image: linear-gradient(to bottom right,#F10000,#B766F7,#6676FF);
+//   -webkit-background-clip: text;
+//   -webkit-text-fill-color: transparent;
 export const CoverH1 = styled.h1`
   color: #fff;
-  background-image: linear-gradient(to bottom right,#F10000,#B766F7,#6676FF);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-size: 78px;
+  
+  font-size: 68px;
   text-align: center;
 
   @media screen and (max-width: 768px) {
@@ -74,7 +76,7 @@ export const CoverP = styled.p`
   margin-top: 24px;
   color: #fff;
   font-size: 24px;
-  text-align: center;
+
   max-width: 600px;
 
   @media screen and (max-width: 768px) {

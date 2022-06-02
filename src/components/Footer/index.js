@@ -26,7 +26,7 @@ const Footer = () => {
             </FooterLinkItems>
 
             <FooterLinkItems>
-              <FooterLinkTitle>About Us</FooterLinkTitle>
+              <FooterLinkTitle>Contact</FooterLinkTitle>
               <FooterLink to='/'>How it works</FooterLink>
               <FooterLink to='/'>Testimonials</FooterLink>
               <FooterLink to='/'>Careers</FooterLink>
@@ -37,22 +37,12 @@ const Footer = () => {
 
           <FooterLinksWrapper>
             <FooterLinkItems>
-              <FooterLinkTitle>About Us</FooterLinkTitle>
-              <FooterLink to='/'>How it works</FooterLink>
-              <FooterLink to='/'>Testimonials</FooterLink>
-              <FooterLink to='/'>Careers</FooterLink>
-              <FooterLink to='/'>Investors</FooterLink>
-              <FooterLink to='/'>Terms of Service</FooterLink>
+              <FooterLinkTitle>Group member</FooterLinkTitle>
+              <FooterLink to='/'>GrayHat Developers</FooterLink>
+              <FooterLink to='/'>AIM Lab</FooterLink>
+         
             </FooterLinkItems>
 
-            <FooterLinkItems>
-              <FooterLinkTitle>About Us</FooterLinkTitle>
-              <FooterLink to='/'>How it works</FooterLink>
-              <FooterLink to='/'>Testimonials</FooterLink>
-              <FooterLink to='/'>Careers</FooterLink>
-              <FooterLink to='/'>Investors</FooterLink>
-              <FooterLink to='/'>Terms of Service</FooterLink>
-            </FooterLinkItems>
           </FooterLinksWrapper>
 
         </FooterLinksContainer>

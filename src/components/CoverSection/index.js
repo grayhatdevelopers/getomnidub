@@ -17,7 +17,7 @@ const CoverSection = () => {
       </CoverBg>
       <CoverContent>
         <CoverH1>DeepDub</CoverH1>
-        <CoverP>Sign up for a new account today and get access to awesome features from our website.</CoverP>
+        <CoverP>Revolutionizing media production by breaking the langauge barrier through automated dubbing with facial synchronisation</CoverP>
         <CoverBtnWrapper>
           <Button to="signup" onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='true'>
             Get started {hover ? <ArrowForward /> : <ArrowRight />}

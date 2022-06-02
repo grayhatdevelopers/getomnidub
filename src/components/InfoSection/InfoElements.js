@@ -53,7 +53,6 @@ export const TextWrapper = styled.div`
 // linear-gradient(to bottom right,#F10000,#B766F7,#6676FF)
 
 export const TopLine = styled.p`
-  // color: #01bf71;
   background-image: linear-gradient(to bottom right,#F10000,#B766F7,#6676FF);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
