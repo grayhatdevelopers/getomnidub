@@ -4,6 +4,8 @@ import { FaFacebook, FaInstagram, FaYoutube, FaTwitter, FaLinkedin } from 'react
 import { FooterContainer, FooterWrapper, FooterLinksContainer, FooterLinksWrapper, FooterLinkItems, FooterLinkTitle, FooterLink, SocialMedia, SocialMediaWrapper, SocialLogo, WebsiteRights, SocialIcons, SocialIconLink } from './FooterElements';
 
 const Footer = () => {
+  const logo = "Grayhat";
+
   const toggleHome = () => {
     scroll.scrollToTop();
   };
@@ -58,9 +60,9 @@ const Footer = () => {
         <SocialMedia>
           <SocialMediaWrapper>
             <SocialLogo to='/' onClick={toggleHome}>
-              logo
+              {logo}
             </SocialLogo>
-            <WebsiteRights>logo © {new Date().getFullYear()} All rights reserved.</WebsiteRights>
+            <WebsiteRights>{logo} © {new Date().getFullYear()} All rights reserved.</WebsiteRights>
             <SocialIcons>
               <SocialIconLink href='/' target='_blank' aria-label='Facebook'>
                 <FaFacebook />

@@ -45,15 +45,20 @@ export const Column2 = styled.div`
 `;
 
 export const TextWrapper = styled.div`
-  max-width: 540px;
+  max-width: 650px;
   padding-top: 0;
   padding-bottom: 60px;
 `;
 
+// linear-gradient(to bottom right,#F10000,#B766F7,#6676FF)
+
 export const TopLine = styled.p`
-  color: #01bf71;
-  font-size: 16px;
-  line-height: 16px;
+  // color: #01bf71;
+  background-image: linear-gradient(to bottom right,#F10000,#B766F7,#6676FF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 20px;
+  line-height: 32px;
   font-weight: 700;
   letter-spacing: 1.4px;
   text-transform: uppercase;
@@ -62,7 +67,7 @@ export const TopLine = styled.p`
 
 export const Heading = styled.h1`
   margin-bottom: 24px;
-  font-size: 48px;
+  font-size: 64px;
   line-height: 1.1;
   font-weight: 600;
   color: ${({ lightText }) => (lightText ? '#f7f8fa' : '#010606')};

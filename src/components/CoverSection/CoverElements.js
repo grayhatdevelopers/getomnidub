@@ -37,11 +37,11 @@ export const CoverBg = styled.div`
 
 export const VideoBg = styled.video`
   width: 100%;
-  height: 100%;
+  height: 110%;
   -o-object-fit: cover;
   object-fit: cover;
   background: #232a34;
-`;
+`;              
 
 export const CoverContent = styled.div`
   z-index: 3;
@@ -55,7 +55,10 @@ export const CoverContent = styled.div`
 
 export const CoverH1 = styled.h1`
   color: #fff;
-  font-size: 48px;
+  background-image: linear-gradient(to bottom right,#F10000,#B766F7,#6676FF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 78px;
   text-align: center;
 
   @media screen and (max-width: 768px) {
