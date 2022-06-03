@@ -16,7 +16,7 @@ const CoverSection = () => {
         <VideoBg autoPlay loop muted src={Video} type='video/mp4' />
       </CoverBg>
       <CoverContent>
-        <CoverH1>Awesome Title Goes Here</CoverH1>
+        <CoverH1>Testing a new title...</CoverH1>
         <CoverP>Sign up for a new account today and consume awesome features from our website.</CoverP>
         <CoverBtnWrapper>
           <Button to="signup" onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='true'>
