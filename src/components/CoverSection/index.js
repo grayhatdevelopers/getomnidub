@@ -17,7 +17,7 @@ const CoverSection = () => {
       </CoverBg>
       <CoverContent>
         <CoverH1>Testing a new title...</CoverH1>
-        <CoverP>Sign up for a new account today and consume awesome features from our website.</CoverP>
+        <CoverP>Make cool videos!</CoverP>
         <CoverBtnWrapper>
           <Button to="signup" onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='true'>
             Get started {hover ? <ArrowForward /> : <ArrowRight />}
