@@ -2,7 +2,7 @@
   "name": "awesome-landing-page",
   "version": "0.1.0",
   "private": true,
-  "homepage": ".",
+  "homepage": "https://grayhatdevelopers.github.io/react-landing-page-with-styled-component-and-smooth-scroll",
   "dependencies": {
     "@expo-google-fonts/red-hat-display": "^0.2.2",
     "@testing-library/jest-dom": "^4.2.4",
