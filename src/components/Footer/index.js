@@ -1,7 +1,7 @@
 import React from 'react';
 import { animateScroll as scroll } from 'react-scroll';
 import { FaFacebook, FaInstagram, FaYoutube, FaTwitter, FaLinkedin } from 'react-icons/fa';
-import { FooterContainer, FooterWrapper, FooterLinksContainer, FooterLinksWrapper, FooterLinkItems, FooterLinkTitle, FooterLink, SocialMedia, SocialMediaWrapper, SocialLogo, WebsiteRights, SocialIcons, SocialIconLink } from './FooterElements';
+import { FooterContainer, FooterWrapper, FooterLinksContainer, FooterLinksWrapper, FooterLinkItems, FooterLinkTitle, FooterLink, ExternalFooterLink, SocialMedia, SocialMediaWrapper, SocialLogo, WebsiteRights, SocialIcons, SocialIconLink } from './FooterElements';
 
 const Footer = () => {
   const logo = "Grayhat";
@@ -37,9 +37,9 @@ const Footer = () => {
 
           <FooterLinksWrapper>
             <FooterLinkItems>
-              <FooterLinkTitle>Group member</FooterLinkTitle>
-              <FooterLink to='/'>GrayHat Developers</FooterLink>
-              <FooterLink to='/'>AIM Lab</FooterLink>
+              <FooterLinkTitle>Partners</FooterLinkTitle>
+              <ExternalFooterLink href='https://grayhat.com.pk/' target="_blank" >Grayhat Developers</ExternalFooterLink>
+              <ExternalFooterLink href='http://isb.nu.edu.pk/aim/' target="_blank" >AIM Lab</ExternalFooterLink>
          
             </FooterLinkItems>
 

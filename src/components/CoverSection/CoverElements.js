@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { MdArrowForward, MdKeyboardArrowRight } from 'react-icons/md';
+import { MdArrowForward, MdKeyboardArrowRight, MdPlayArrow, MdStop } from 'react-icons/md';
 
 export const CoverContainer = styled.div`
   background: #0c0c0c;
@@ -102,5 +102,15 @@ export const ArrowForward = styled(MdArrowForward)`
 
 export const ArrowRight = styled(MdKeyboardArrowRight)`
   margin-left: 8px;
+  font-size: 20px;
+`;
+
+export const Play = styled(MdPlayArrow)`
+  margin-right: 8px;
+  font-size: 20px;
+`;
+
+export const PlayDisabled = styled(MdStop)`
+  margin-right: 8px;
   font-size: 20px;
 `;
