@@ -29,7 +29,7 @@ const Navbar = ({ toggle }) => {
         <Nav scrollNav={scrollNav}>
           <NavbarContainer>
             <NavLogo to='/' onClick={toggleHome}>
-              logo
+              Grayhat
           </NavLogo>
             <MenuIcon onClick={toggle}>
               <FaBars />

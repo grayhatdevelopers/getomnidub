@@ -4,6 +4,8 @@ import { FaFacebook, FaInstagram, FaYoutube, FaTwitter, FaLinkedin } from 'react
 import { FooterContainer, FooterWrapper, FooterLinksContainer, FooterLinksWrapper, FooterLinkItems, FooterLinkTitle, FooterLink, SocialMedia, SocialMediaWrapper, SocialLogo, WebsiteRights, SocialIcons, SocialIconLink } from './FooterElements';
 
 const Footer = () => {
+  const logo = "Grayhat";
+
   const toggleHome = () => {
     scroll.scrollToTop();
   };
@@ -24,7 +26,7 @@ const Footer = () => {
             </FooterLinkItems>
 
             <FooterLinkItems>
-              <FooterLinkTitle>About Us</FooterLinkTitle>
+              <FooterLinkTitle>Contact</FooterLinkTitle>
               <FooterLink to='/'>How it works</FooterLink>
               <FooterLink to='/'>Testimonials</FooterLink>
               <FooterLink to='/'>Careers</FooterLink>
@@ -35,22 +37,12 @@ const Footer = () => {
 
           <FooterLinksWrapper>
             <FooterLinkItems>
-              <FooterLinkTitle>About Us</FooterLinkTitle>
-              <FooterLink to='/'>How it works</FooterLink>
-              <FooterLink to='/'>Testimonials</FooterLink>
-              <FooterLink to='/'>Careers</FooterLink>
-              <FooterLink to='/'>Investors</FooterLink>
-              <FooterLink to='/'>Terms of Service</FooterLink>
+              <FooterLinkTitle>Group member</FooterLinkTitle>
+              <FooterLink to='/'>GrayHat Developers</FooterLink>
+              <FooterLink to='/'>AIM Lab</FooterLink>
+         
             </FooterLinkItems>
 
-            <FooterLinkItems>
-              <FooterLinkTitle>About Us</FooterLinkTitle>
-              <FooterLink to='/'>How it works</FooterLink>
-              <FooterLink to='/'>Testimonials</FooterLink>
-              <FooterLink to='/'>Careers</FooterLink>
-              <FooterLink to='/'>Investors</FooterLink>
-              <FooterLink to='/'>Terms of Service</FooterLink>
-            </FooterLinkItems>
           </FooterLinksWrapper>
 
         </FooterLinksContainer>
@@ -58,9 +50,9 @@ const Footer = () => {
         <SocialMedia>
           <SocialMediaWrapper>
             <SocialLogo to='/' onClick={toggleHome}>
-              logo
+              {logo}
             </SocialLogo>
-            <WebsiteRights>logo © {new Date().getFullYear()} All rights reserved.</WebsiteRights>
+            <WebsiteRights>{logo} © {new Date().getFullYear()} All rights reserved.</WebsiteRights>
             <SocialIcons>
               <SocialIconLink href='/' target='_blank' aria-label='Facebook'>
                 <FaFacebook />

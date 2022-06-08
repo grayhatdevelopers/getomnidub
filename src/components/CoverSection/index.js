@@ -9,15 +9,15 @@ const CoverSection = () => {
   const onHover = () => {
     setHover(!hover);
   };
-
+  
   return (
     <CoverContainer>
       <CoverBg>
         <VideoBg autoPlay loop muted src={Video} type='video/mp4' />
       </CoverBg>
       <CoverContent>
-        <CoverH1>Testing a new title...</CoverH1>
-        <CoverP>Make cool videos!</CoverP>
+        <CoverH1>DeepDub</CoverH1>
+        <CoverP>Revolutionizing media production by breaking the langauge barrier through automated dubbing with facial synchronisation</CoverP>
         <CoverBtnWrapper>
           <Button to="signup" onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='true'>
             Get started {hover ? <ArrowForward /> : <ArrowRight />}
