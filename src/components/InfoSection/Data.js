@@ -5,7 +5,7 @@ export const aboutObj = {
   lightTextDesc: true,
   topLine: 'GrayHat Developers',
   headline: 'Videos for Everyone!',
-  description: 'DeepDub aims to provide seamless dubbing of videos ',
+  description: 'Using deep learning and artificial intelligence, our award-winning system translates videos from their original language to any other language.',
   buttonLabel: 'Get started',
   imgStart: false,
   img: require('../../images/svg-1.svg'),
