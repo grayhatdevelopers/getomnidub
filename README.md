@@ -4,7 +4,7 @@ Laning page with background video and smooth scroll, bootstrapped with [Create R
 
 ## Live Demo
 
-A live demo is available at [github-pages](https://mazid1.github.io/react-landing-page-with-styled-component-and-smooth-scroll/#/).
+A live demo is available at [github-pages](https://grayhatdevelopers.github.io/getdeepdub/#/).
 
 ## Available Scripts
 
