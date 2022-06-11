@@ -2,7 +2,9 @@ import React from 'react';
 import Icon1 from '../../images/film-icon.jpeg';
 import Icon2 from '../../images/tv-anchor.webp';
 import Icon3 from '../../images/calling.png';
-import { ServicesContainer, ServicesH1, ServicesWrapper, ServicesCard, ServicesIcon, ServicesH2, ServicesP } from './ServicesElements';
+import { ServicesContainer, ServicesH1, ServicesWrapper, ServicesCard, ServicesIcon, ServicesH2, 
+  // ServicesP 
+} from './ServicesElements';
 
 const Services = () => {
   return (
