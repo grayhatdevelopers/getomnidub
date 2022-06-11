@@ -31,23 +31,23 @@ const Navbar = ({ toggle }) => {
         <Nav scrollNav={scrollNav}>
           <NavbarContainer>
             <NavLogo to='/' onClick={toggleHome}>
-              Grayhat
+              deepdub
           </NavLogo>
             <MenuIcon onClick={toggle}>
               <FaBars />
             </MenuIcon>
             <NavMenu>
               <NavItem>
-                <NavLink to='about' smooth={true} duration={500} spy={true} exact='true' offset={-80} >About</NavLink>
+                <NavLink to='about' smooth={true} duration={500} spy={true} exact='true' offset={-5} >About</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink to='discover' smooth={true} duration={500} spy={true} exact='true' offset={-80}>Product</NavLink>
+                <NavLink to='discover' smooth={true} duration={500} spy={true} exact='true' offset={-5}>Product</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink to='services' smooth={true} duration={500} spy={true} exact='true' offset={-80}>Use Cases</NavLink>
+                <NavLink to='services' smooth={true} duration={500} spy={true} exact='true' offset={-5}>Use Cases</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink to='signup' smooth={true} duration={500} spy={true} exact='true' offset={-80}>Demo</NavLink>
+                <NavLink to='signup' smooth={true} duration={500} spy={true} exact='true' offset={-5}>Demo</NavLink>
               </NavItem>
             </NavMenu>
             <NavBtn>

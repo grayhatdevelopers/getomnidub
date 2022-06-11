@@ -13,19 +13,19 @@ const Services = () => {
         <ServicesCard>
           <ServicesIcon src={Icon1} />
           <ServicesH2>Film/Drama</ServicesH2>
-          <ServicesP>We help reduce your fees and increase your overall revenue</ServicesP>
+          {/* <ServicesP>Dub movies and dramas from one language to another, enabling better export/import of movies between countries.</ServicesP> */}
         </ServicesCard>
 
         <ServicesCard>
           <ServicesIcon src={Icon2} />
           <ServicesH2>Broadcast Media</ServicesH2>
-          <ServicesP>You can access our platform online anywhere in the world</ServicesP>
+          {/* <ServicesP>You can access our platform online anywhere in the world</ServicesP> */}
         </ServicesCard>
 
         <ServicesCard>
           <ServicesIcon src={Icon3} />
           <ServicesH2>Social Media</ServicesH2>
-          <ServicesP>Unlock our special membership card and get 5% cashback</ServicesP>
+          {/* <ServicesP>Unlock our special membership card and get 5% cashback</ServicesP> */}
         </ServicesCard>
 
       </ServicesWrapper>
