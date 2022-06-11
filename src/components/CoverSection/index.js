@@ -4,6 +4,7 @@ import { CoverContainer, CoverBg, VideoBg, CoverContent, CoverH1, CoverP, CoverB
 import { Button } from '../ButtonElements';
 import FullScreenVideo from '../FullScreenVideo';
 
+// To check the current screen width
 import useWindowDimensions from '../../utils/useWindowDimensions';
 
 const CoverSection = () => {
@@ -33,7 +34,7 @@ const CoverSection = () => {
       </CoverBg>
       <CoverContent style={width < 850 ? mobile_cover_content : {}}>
         <CoverH1>DeepDub</CoverH1>
-        <CoverP>Revolutionizing media production by breaking the language barrier through automatic dubbing with face synchronisation.</CoverP>
+        <CoverP style={width < 850 ? {textAlign: 'center'} : {}}>Revolutionizing media production by breaking the language barrier through automatic dubbing with face synchronisation.</CoverP>
         <div style={{display:"flex", flexDirection: "row"}}>
         <CoverBtnWrapper>
           <Button to="signup" onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='true'>
