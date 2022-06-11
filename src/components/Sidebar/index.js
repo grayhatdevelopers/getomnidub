@@ -15,7 +15,7 @@ const Sidebar = ({ isOpen, toggle }) => {
           <SidebarLink to="signup" onClick={toggle}>Demo</SidebarLink>
         </SidebarMenu>
         <SideBtnWrap>
-          <ExternalSidebarRoute to="/signin">Join Waitlist</ExternalSidebarRoute>
+          <ExternalSidebarRoute href="https://forms.gle/Tg3xaxBtHrBdLaUc9">Join Waitlist</ExternalSidebarRoute>
         </SideBtnWrap>
       </SidebarWrapper>
     </SidebarContainer>
