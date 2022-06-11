@@ -5,6 +5,9 @@
   "homepage": "https://grayhatdevelopers.github.io/getdeepdub",
   "dependencies": {
     "@expo-google-fonts/red-hat-display": "^0.2.2",
+    "@fortawesome/fontawesome-svg-core": "^6.1.1",
+    "@fortawesome/free-solid-svg-icons": "^6.1.1",
+    "@fortawesome/react-fontawesome": "^0.1.18",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
@@ -36,7 +39,7 @@
   "eslintConfig": {
     "extends": "react-app",
     "rules": {
-        "jsx-a11y/accessible-emoji": "off"
+      "jsx-a11y/accessible-emoji": "off"
     }
   },
   "browserslist": {

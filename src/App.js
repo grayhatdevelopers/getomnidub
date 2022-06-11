@@ -18,7 +18,7 @@ function App() {
         <meta name="description" content="Automatically dub videos into other languages."/>
         <title>DeepDub | Videos for everyone.</title>
         <meta name="og:title" content="DeepDub | 🗣️ Videos for everyone."/>
-        <meta name="og:description" content="Automatically dub videos into other languages"/>
+        <meta name="og:description" content="Automatically dub videos into other languages."/>
         <meta name="og:image" content="https://grayhatdevelopers.github.io/getdeepdub/thumbnail.png"/>
       </head>
       <Switch>

@@ -44,7 +44,7 @@ const CoverSection = () => {
             { watchVideo ?
             <><PlayDisabled /> Mute video</>
             :
-            <><Play /> Watch video</>
+            <><Play /> Play video</>
           }
           </Button>
         </CoverBtnWrapper>

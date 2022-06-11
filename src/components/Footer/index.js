@@ -56,7 +56,8 @@ const Footer = () => {
             <SocialLogo to='/' onClick={toggleHome}>
               {logo}
             </SocialLogo>
-            <WebsiteRights>{logo} © {new Date().getFullYear()} All rights reserved.</WebsiteRights>
+            <WebsiteRights style={{textAlign: 'center'}}>{logo} © {new Date().getFullYear()} All rights reserved.
+            <br />Proudly made in Pakistan.</WebsiteRights>
             <SocialIcons>
               <SocialIconLink href='https://www.facebook.com/grayhatdevelopers/' target='_blank' aria-label='Facebook'>
                 <FaFacebook />
