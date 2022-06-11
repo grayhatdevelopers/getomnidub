@@ -4,10 +4,18 @@ import { CoverContainer, CoverBg, VideoBg, CoverContent, CoverH1, CoverP, CoverB
 import { Button } from '../ButtonElements';
 import FullScreenVideo from '../FullScreenVideo';
 
+import useWindowDimensions from '../../utils/useWindowDimensions';
+
 const CoverSection = () => {
   const [hover, setHover] = useState(false);
   const [watchVideo, setWatchVideo] = useState(false);
 
+  const { width } = useWindowDimensions();
+
+  const mobile_cover_content = {
+    left: "0",
+    alignItems: "center",
+  }
 
   const onHover = () => {
     setHover(!hover);
@@ -23,7 +31,7 @@ const CoverSection = () => {
       <CoverBg>
         <VideoBg autoPlay loop muted src={Video} type='video/mp4' />
       </CoverBg>
-      <CoverContent>
+      <CoverContent style={width < 850 ? mobile_cover_content : {}}>
         <CoverH1>DeepDub</CoverH1>
         <CoverP>Revolutionizing media production by breaking the language barrier through automatic dubbing with face synchronisation.</CoverP>
         <div style={{display:"flex", flexDirection: "row"}}>

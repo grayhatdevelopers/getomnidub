@@ -47,10 +47,10 @@ export const CoverContent = styled.div`
   z-index: 3;
   max-width: 1200px;
   position: relative;
-  left: -25vw;
   padding: 8px 24px;
   display: flex;
   flex-direction: column;
+  left: -25vw;
   align-items: flex-start;
 `;
 
