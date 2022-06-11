@@ -16,7 +16,8 @@ function App() {
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
         <link rel="manifest" href="/site.webmanifest" />
         <meta name="description" content="Automatically dub videos into other languages."/>
-        <meta name="og:title" content="DeepDub | Videos for everyone"/>
+        <title>DeepDub | 🗣️ Videos for everyone.</title>
+        <meta name="og:title" content="DeepDub | 🗣️ Videos for everyone."/>
         <meta name="og:description" content="Automatically dub videos into other languages"/>
         <meta name="og:image" content="../public/thumbnail.png"/>
       </head>
