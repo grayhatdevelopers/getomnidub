@@ -33,7 +33,7 @@ const CoverSection = () => {
         <VideoBg autoPlay loop muted src={Video} type='video/mp4' />
       </CoverBg>
       <CoverContent style={width < 850 ? mobile_cover_content : {}}>
-        <CoverH1>Videos for everyone.</CoverH1>
+        <CoverH1>Dub videos with AI</CoverH1>
         <CoverP style={width < 850 ? {textAlign: 'center'} : {}}>DeepDub translates videos from one language into many others, while preserving the voice of the original actor and synchronizing the lips.</CoverP>
         <div style={{display:"flex", flexDirection: "row"}}>
         <CoverBtnWrapper>
