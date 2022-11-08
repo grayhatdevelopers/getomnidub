@@ -34,7 +34,7 @@ const CoverSection = () => {
       </CoverBg>
       <CoverContent style={width < 850 ? mobile_cover_content : {}}>
         <CoverH1>Dub videos with AI</CoverH1>
-        <CoverP style={width < 850 ? {textAlign: 'center'} : {}}>DeepDub translates videos from one language into many others, while preserving the voice of the original actor and synchronizing the lips.</CoverP>
+        <CoverP style={width < 850 ? {textAlign: 'center'} : {}}>OmniDub translates videos from one language into many others, while preserving the voice of the original actor and synchronizing the lips.</CoverP>
         <div style={{display:"flex", flexDirection: "row"}}>
         <CoverBtnWrapper>
           <Button to="signup" onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='true'>

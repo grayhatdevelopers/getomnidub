@@ -6,7 +6,7 @@ import { FaFacebook, FaInstagram,
 import { FooterContainer, FooterWrapper, FooterLinksContainer, FooterLinksWrapper, FooterLinkItems, FooterLinkTitle, FooterLink, ExternalFooterLink, SocialMedia, SocialMediaWrapper, SocialLogo, WebsiteRights, SocialIcons, SocialIconLink } from './FooterElements';
 
 const Footer = () => {
-  const logo = "deepdub";
+  const logo = "omnidub";
 
   const toggleHome = () => {
     scroll.scrollToTop();
@@ -19,7 +19,7 @@ const Footer = () => {
 
           <FooterLinksWrapper>
             <FooterLinkItems>
-              <FooterLinkTitle>DeepDub</FooterLinkTitle>
+              <FooterLinkTitle>OmniDub</FooterLinkTitle>
               <FooterLink to='info'>About</FooterLink>
               <FooterLink to='discover'>Product</FooterLink>
               <FooterLink to='services'>Use Cases</FooterLink>

@@ -67,7 +67,7 @@ export const signupObj = {
   lightTextDesc: false,
   topLine: 'Try Our Beta',
   headline: 'We\'re looking for users',
-  description: 'We are open to users and businesses willing to integrate DeepDub into their workflow - Content creators, studios, media production houses, and anyone else!',
+  description: 'We are open to users and businesses willing to integrate OmniDub into their workflow - Content creators, studios, media production houses, and anyone else!',
   
   buttons: [
     {

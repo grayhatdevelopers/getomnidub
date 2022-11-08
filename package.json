@@ -2,7 +2,7 @@
   "name": "awesome-landing-page",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://grayhatdevelopers.github.io/getdeepdub",
+  "homepage": "https://grayhatdevelopers.github.io/getomnidub",
   "dependencies": {
     "@expo-google-fonts/red-hat-display": "^0.2.2",
     "@fortawesome/fontawesome-svg-core": "^6.1.1",

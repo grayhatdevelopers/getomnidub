@@ -31,7 +31,7 @@ const Navbar = ({ toggle }) => {
         <Nav scrollNav={scrollNav}>
           <NavbarContainer>
             <NavLogo to='/' onClick={toggleHome}>
-              deepdub
+              omnidub
           </NavLogo>
             <MenuIcon onClick={toggle}>
               <FaBars />
