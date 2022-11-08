@@ -1,6 +1,6 @@
 # Awesome Landing Page
 
-Laning page with background video and smooth scroll, bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and styled component.
+Laning page with background video and smooth scroll, bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and styled components.
 
 ## Live Demo
 
