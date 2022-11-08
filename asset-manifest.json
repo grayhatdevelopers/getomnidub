@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/getomnidub/static/css/main.9c2dcef4.chunk.css",
+    "main.js": "/getomnidub/static/js/main.98838e13.chunk.js",
+    "main.js.map": "/getomnidub/static/js/main.98838e13.chunk.js.map",
+    "runtime-main.js": "/getomnidub/static/js/runtime-main.bcf5e0f7.js",
+    "runtime-main.js.map": "/getomnidub/static/js/runtime-main.bcf5e0f7.js.map",
+    "static/js/2.2fd08e15.chunk.js": "/getomnidub/static/js/2.2fd08e15.chunk.js",
+    "static/js/2.2fd08e15.chunk.js.map": "/getomnidub/static/js/2.2fd08e15.chunk.js.map",
+    "index.html": "/getomnidub/index.html",
+    "precache-manifest.52508f89f842da56817f7949d2341d11.js": "/getomnidub/precache-manifest.52508f89f842da56817f7949d2341d11.js",
+    "service-worker.js": "/getomnidub/service-worker.js",
+    "static/css/main.9c2dcef4.chunk.css.map": "/getomnidub/static/css/main.9c2dcef4.chunk.css.map",
+    "static/js/2.2fd08e15.chunk.js.LICENSE.txt": "/getomnidub/static/js/2.2fd08e15.chunk.js.LICENSE.txt",
+    "static/media/calling.png": "/getomnidub/static/media/calling.e4901b99.png",
+    "static/media/dubbing.png": "/getomnidub/static/media/dubbing.7df97b1c.png",
+    "static/media/film-icon.jpeg": "/getomnidub/static/media/film-icon.be01e1d4.jpeg",
+    "static/media/multilingual.png": "/getomnidub/static/media/multilingual.5f467cfe.png",
+    "static/media/people.png": "/getomnidub/static/media/people.7e571a79.png",
+    "static/media/tv-anchor.webp": "/getomnidub/static/media/tv-anchor.620aaf43.webp",
+    "static/media/video.mp4": "/getomnidub/static/media/video.f9b80de4.mp4"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bcf5e0f7.js",
+    "static/js/2.2fd08e15.chunk.js",
+    "static/css/main.9c2dcef4.chunk.css",
+    "static/js/main.98838e13.chunk.js"
+  ]
+}
